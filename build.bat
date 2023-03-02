@@ -1,0 +1,1 @@
+g++ -o build/template.exe main.cpp src/manager.cpp

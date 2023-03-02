@@ -1,0 +1,45 @@
+//
+// Created by Marco Silva
+//
+
+1. COMMANDS
+-----------------------------------------------------------------------------------------------------------
+
+	NAME (The name given to the files)
+	AUTHOR (The author's name; will be written on top of the file)
+	CLASS (The name of the class)
+	INCLUDE (Default includes given to the file)
+	USER INCLUDE (Includes the user might want to add that were created previously created)
+	TEXT (Text that will be written to the file)
+
+-----------------------------------------------------------------------------------------------------------
+
+2. HOW TO USE
+-----------------------------------------------------------------------------------------------------------
+
+	2.1 Create a file named template_settings.txt in the same directory as the executable (template.exe)
+	2.2 Write your commands and your arguments in order COMMMAND -> ARGUMENT separated with "+"
+	2.3 Make sure you use the NAME or CLASS commands to create files. The program won't create a file with default names
+	2.4 The remaining commands are optional
+	2.5 Creating a class automatically creates a constructor and a deconstructor, as well, as their definitions on C++ file
+
+-----------------------------------------------------------------------------------------------------------
+
+3. EXAMPLE template_settings.txt
+-----------------------------------------------------------------------------------------------------------
+
+CLASS+MyPerfectClass+
+AUTHOR+Marco Manuel Almeida e Silva+
+INCLUDE+iostream+
+INCLUDE+string.h+
+INCLUDE+vector+
+TEXT+int main()
+{
+	std::cout << "Hello World!" << std::endl;
+
+	return 0;
+}
++
+
+
+
